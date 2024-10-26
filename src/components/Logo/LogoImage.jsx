@@ -2,7 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 
 export const LogoImage = () => {
-  return <Image src="/img/test8_cropped.png" alt="logo" />;
+  return <Image src="./img/test8_cropped.png" alt="logo" />;
 };
 
 const Image = styled.img`

@@ -53,7 +53,7 @@ function App() {
       <ToastContainer />
       <AbsoluteContainer isShown={currentStep === STEPS.GAME}>
         <BackButton onClick={() => setCurrentStep(STEPS.MENU)}>
-          <Icon src="/img/icons/back_home.svg" />
+          <Icon src="./img/icons/back_home.svg" />
         </BackButton>
       </AbsoluteContainer>
     </>
