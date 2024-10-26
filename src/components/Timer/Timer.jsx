@@ -51,7 +51,7 @@ const Timer = () => {
           !started && (
             <Button onClick={play}>
               <Flex flexdirection="row" gap="4px">
-                <Icon src="/img/icons/play.svg" alt="play" />
+                <Icon src="./img/icons/play.svg" alt="play" />
                 Start
               </Flex>
             </Button>
@@ -65,12 +65,12 @@ const Timer = () => {
                   {
                     paused ? (
                       <>
-                        <Icon src="/img/icons/play.svg" alt="Resume" />
+                        <Icon src="./img/icons/play.svg" alt="Resume" />
                         Resume
                       </>
                     ) : (
                       <>
-                        <Icon src="/img/icons/pause.svg" alt="Pause" />
+                        <Icon src="./img/icons/pause.svg" alt="Pause" />
                         Pause
                       </>
                     )
@@ -79,7 +79,7 @@ const Timer = () => {
               </Button>
               <Button onClick={restart}>
                 <Flex flexdirection="row" gap="4px">
-                  <Icon src="/img/icons/restart.svg" alt="restart" />
+                  <Icon src="./img/icons/restart.svg" alt="restart" />
                   Restart
                 </Flex>
               </Button>

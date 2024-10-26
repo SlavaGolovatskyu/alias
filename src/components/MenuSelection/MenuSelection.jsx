@@ -48,7 +48,7 @@ const MenuSelection = ({ startGame, selectedLevels, setSelectedLevels }) => {
         </Text>
         <Button onClick={startGame}>
           <Flex flexdirection="row" gap="4px">
-            <Icon src="/img/icons/play.svg" alt="play" />
+            <Icon src="./img/icons/play.svg" alt="play" />
             Start
           </Flex>
         </Button>

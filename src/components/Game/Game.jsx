@@ -94,13 +94,13 @@ const Game = ({ selectedLevels }) => {
         <ContainerButton>
           <Button disabled={currentWord.wordIndex === 0} onClick={previousWord}>
             <Flex flexdirection="row" gap="4px">
-              <Icon src="/img/icons/previous.svg" alt="previous" />
+              <Icon src="./img/icons/previous.svg" alt="previous" />
               Previous
             </Flex>
           </Button>
           <Button onClick={nextWord}>
             <Flex flexdirection="row" gap="4px">
-            <Icon src="/img/icons/next.svg" alt="next" />
+            <Icon src="./img/icons/next.svg" alt="next" />
               Next
             </Flex>
           </Button>
